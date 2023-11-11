@@ -18,8 +18,7 @@
             <button onClick="onDecrement()" class="button">DECREASE</button>
             <button onClick="onReset()" class="button">RESET</button>
             <button onClick="onIncrement()" class="button">INCREASE</button>
-       	    <button onClick="onIncrement()" class="button">INCREASE</button>
-
+       	   
 	</div>
     </div>
 </body>
