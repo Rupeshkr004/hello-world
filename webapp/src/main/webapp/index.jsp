@@ -16,7 +16,7 @@
         <p class="counter-value" id="counterID">0</p>
         <div>
             <button onClick="onDecrement()" class="button">DECREASE</button>
-            <button onClick="onReset()" class="button">RESET</button>
+            <button onClick="onReset()" class="button">RESET button</button>
             <button onClick="onIncrement()" class="button">INCREASE no</button>
         </div>
     </div>
