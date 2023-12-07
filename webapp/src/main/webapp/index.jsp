@@ -15,9 +15,9 @@
         <h1 class="counter-heading">Counter</h1>
         <p class="counter-value" id="counterID">0</p>
         <div>
-            <button onClick="onDecrement()" class="button">DECREASE</button>
-            <button onClick="onReset()" class="button">RESET</button>
-            <button onClick="onIncrement()" class="button">INCREASE</button>
+            <button onClick="onDecrement()" class="button">DECREASE The Number</button>
+            <button onClick="onReset()" class="button">RESET The Number</button>
+            <button onClick="onIncrement()" class="button">INCREASE The Number</button>
        	   
 	</div>
     </div>
