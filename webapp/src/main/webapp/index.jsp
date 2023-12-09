@@ -17,7 +17,11 @@
         <div>
             <button onClick="onDecrement()" class="button">DECREASE Number</button>
             <button onClick="onReset()" class="button">RESET Number</button>
+<<<<<<< HEAD
             <button onClick="onIncrement()" class="button">INCREASE</button>
+=======
+            <button onClick="onIncrement()" class="button">INCREASE Number</button>
+>>>>>>> origin/master
        	   
 	</div>
     </div>
