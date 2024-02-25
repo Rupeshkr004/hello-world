@@ -168,6 +168,16 @@
       </plugins>
     </pluginManagement>
   </build>
+<distributionManagement>
+    <repository>
+        <id>nexus01</id>
+        <url>http://34.121.188.227:8081/repository/maven01/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus01-snapshot</id>
+        <url>http://34.121.188.227:8081/repository/maven01/</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <dependencyManagement>
     <dependencies>
@@ -211,15 +221,6 @@
         <scope>test</scope>
       </dependency>
     </dependencies>
-
-            <repository>
-        <id>nexus01</id>
-        <url>http://34.121.188.227:8081/repository/maven01/</url>
-    </repository>
-    <snapshotRepository>
-        <id>nexus01-snapshoot</id>
-        <url>http://34.121.188.227:8081/repository/maven01/</url>
-    </snapshotRepository>
            
   </dependencyManagement>
 
