@@ -10,16 +10,7 @@
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
-<distributionManagement>
-    <repository>
-        <id>nexus01</id>
-        <url>http://34.121.188.227:8081/repository/maven01/</url>
-    </repository>
-    <snapshotRepository>
-        <id>nexus01-snapshot</id>
-        <url>http://34.121.188.227:8081/repository/maven01/</url>
-    </snapshotRepository>
-</distributionManagement>
+
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
@@ -233,4 +224,14 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+         <distributionManagement>
+    <repository>
+        <id>nexus01</id>
+        <url>http://34.121.188.227:8081/repository/maven01/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus01-snapshot</id>
+        <url>http://34.121.188.227:8081/repository/maven01/</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
