@@ -33,10 +33,10 @@
         <id>nexus01</id>
         <url>http://34.121.188.227:8081/repository/maven01/</url>
     </repository>
-    <snapshotRepository>
+<!--     <snapshotRepository>
         <id>nexus01-snapshot</id>
         <url>http://34.121.188.227:8081/repository/maven01/</url>
-    </snapshotRepository>
+    </snapshotRepository> -->
 
   </distributionManagement>
 
