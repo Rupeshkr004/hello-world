@@ -3,13 +3,13 @@
 
   <modelVersion>4.0.0</modelVersion> 
          
-  <groupId>com.example.maven-project</groupId>
+  <groupId>com.Rupesh.maven-project</groupId>
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
-  <url>http://www.example.com</url>
+   <url>http://34.121.188.227:8081/repository/hello-worldProject/</url>
 
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
@@ -29,14 +29,17 @@
     </site>
 
 
-    <repository>
-        <id>nexus01</id>
-        <url>http://34.121.188.227:8081/repository/maven-releases/</url>
-    </repository>
-  <snapshotRepository>
+<!--     <repository>
+        
+         <artifactId>hello-worldProject</artifactId>
+         <packaging>war</packaging>
+         <id>nexus01</id>
+        <url>http://34.121.188.227:8081/repository/hello-worldProject/</url>
+    </repository> -->
+<!--   <snapshotRepository>
         <id>nexus01-snapshoot</id>
-        <url>http://34.121.188.227:8081/repository/maven-releases/</url>
- </snapshotRepository>
+        <url>http://34.121.188.227:8081/repository/hello-worldProject/</url>
+ </snapshotRepository> -->
   </distributionManagement>
 
   <build>
