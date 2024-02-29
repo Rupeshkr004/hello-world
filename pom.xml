@@ -6,7 +6,7 @@
            <sonar.projectKey>HelloWorld</sonar.projectKey>
 </properties> -->
   <groupId>com.example.maven-project</groupId>
-  <artifactId>helloworldProject-project</artifactId>
+  <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
