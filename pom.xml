@@ -2,16 +2,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion> 
-<!-- <properties>
-           <sonar.projectKey>HelloWorld</sonar.projectKey>
-</properties> -->
+
   <groupId>com.example.maven-project</groupId>
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
-   <url>http://34.121.188.227:8081/repository/hello-worldProject/</url>
+  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
@@ -29,19 +27,6 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
-
-
-<!--     <repository>
-        
-         <artifactId>hello-worldProject</artifactId>
-         <packaging>war</packaging>
-         <id>nexus01</id>
-        <url>http://34.121.188.227:8081/repository/hello-worldProject/</url>
-    </repository> -->
-<!--   <snapshotRepository>
-        <id>nexus01-snapshoot</id>
-        <url>http://34.121.188.227:8081/repository/hello-worldProject/</url>
- </snapshotRepository> -->
   </distributionManagement>
 
   <build>
@@ -226,7 +211,6 @@
         <scope>test</scope>
       </dependency>
     </dependencies>
-           
   </dependencyManagement>
 
   <scm>
@@ -239,5 +223,5 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-      
+
 </project>
